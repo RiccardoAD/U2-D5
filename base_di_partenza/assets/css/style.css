@@ -11,7 +11,8 @@ body a {
   main {
     width: 70%;
     margin-inline: auto;
-    margin-bottom: 1p;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid;
   }
   
 /* UTILITY */
@@ -45,7 +46,7 @@ header{
 .logo{
     height: 50%;
     padding: 5px ;
-    padding-left:5rem; 
+    padding-left:20rem; 
 }
 .menu{
     display: flex;
@@ -79,7 +80,16 @@ header{
     margin-left: 2rem;
 
 }
+.banner-scroll{
+  background-color: white ;
+  
+}
 
+.banner-scroll .getstartedbtn {
+  background-color: #1a8917;
+  color: white;
+
+}
  
  .banner2{
     background-color: #ffc017;
@@ -99,6 +109,7 @@ header{
     margin-left: 124px;
     padding-bottom: 4rem;
     width: 100%;
+    padding-left: 10rem
     
   }
  
@@ -147,7 +158,7 @@ main {
   }
   
   h4 {
-    margin-top: 8rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     font-weight: bold;
   }
@@ -213,6 +224,7 @@ main {
 article{
     display: flex;
     flex-direction: column;
+    width: 65%;
 }
 .flex {
     display: flex;
@@ -230,11 +242,11 @@ article{
   }
   
   .article-card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
   }
   
   .img-container-article {
@@ -278,6 +290,7 @@ article{
     position: sticky;
     top: 100px;
     z-index: 4;
+    padding-inline: 3rem;
   }
   aside h2 {
     margin-top: 1rem;
@@ -297,6 +310,21 @@ article{
     background-color: #f2f2f2;
     padding: 0.5rem 1rem;
     cursor: pointer;
+  }
+  .topic{
+    text-align: left;
+    padding-top: 3rem;
+  }
+  
+  .topic p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color:#1a8917 ;
+    cursor: pointer;
+  }
+  .topic p:hover{
+    text-decoration: underline;
+
   }
   
   .line {
