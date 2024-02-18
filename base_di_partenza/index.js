@@ -1,6 +1,6 @@
 const newBanner= document.getElementById("newBanner");
 window.addEventListener("scroll",function () {
-    if (window.scrollY > 350) {
+    if (window.scrollY > 150) {
         newBanner.classList.add("banner-scroll");
       
         
